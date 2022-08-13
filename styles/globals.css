@@ -1,0 +1,24 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.home {
+  height: 100vh;
+  width: 100vw;
+}
+.block {
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 300px;
+}
